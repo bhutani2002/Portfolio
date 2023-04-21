@@ -55,7 +55,7 @@ const Subscription = new mongoose.model('Subscription', schema);
 
 // Routes
 app.get('/*', function(req, res){
-    res.sendFile(__variableOfChoice + '/build/index.html');
+    res.sendFile(__variableOfChoice + './build/index.html');
 });
 
 
