@@ -75,14 +75,20 @@ app.post('/api/subscribe/email', jsonParser, async function(req, res) {
                 // });
                 const newSubscription = new Subscription();
                 newSubscription.email = req.body.email;
-                newSubscription.save(function(err) {
-                    if(err) {
-                        res.status(400).send({ "message" : "Error saving your email.", "code" : "02" });
-                    } else {
-                        console.log(req.body.email);
-                        res.status(200).send({ "message" : "User has Subscribed.", "code" : "03"  });
-                    }
+                newSubscription.save().then(function(err){
+                    console.log(req.body.email);
+                    res.status(200).send({ "message" : "User has Subscribed.", "code" : "03"  });
+                }).catch(function(err){
+                    res.status(400).send({ "message" : "Error saving your email.", "code" : "02" });
                 })
+                // newSubscription.save(function(err) {
+                //     if(err) {
+                //         res.status(400).send({ "message" : "Error saving your email.", "code" : "02" });
+                //     } else {
+                //         console.log(req.body.email);
+                //         res.status(200).send({ "message" : "User has Subscribed.", "code" : "03"  });
+                //     }
+                // })
             } else {
                 // Otherwise show errors
                 res.status(400).send({ "message" : "Error saving your email.", "code" : "02" });

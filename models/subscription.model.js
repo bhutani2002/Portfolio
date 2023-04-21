@@ -5,13 +5,7 @@ const mongoose = require("mongoose")
 mongoose.connect(process.env.mongooseUri, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-    }, err => {
-        if (!err) {
-            console.log("Connection Succeded")
-        } else {
-            console.log("Error in connection" + err)
-        }
-});
+    },).then(() => console.log('Connected Successfully')).catch((err) => {console.error(err)});
 
 // const schema = new mongoose.Schema({ 
 //     email: 'string'
