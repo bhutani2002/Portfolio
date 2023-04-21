@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.f3bd4204.css",
-    "main.js": "/static/js/main.0a8bab06.js",
+    "main.js": "/static/js/main.ac00ef6f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Raag.jpg": "/static/media/Raag.6d529b431d3ab5aacf72.jpg",
     "static/media/Design Innovation Centre - Summer Internship.png": "/static/media/Design Innovation Centre - Summer Internship.e1f312245ec7e1e7a1df.png",
     "static/media/Job-Portal.png": "/static/media/Job-Portal.10efa62abdad49a0265c.png",
     "static/media/Lambton-pro.jpg": "/static/media/Lambton-pro.cec66a3e151cf4bb5773.jpg",
@@ -30,7 +31,6 @@
     "static/media/Google-solution-challenge-2022.jpg": "/static/media/Google-solution-challenge-2022.b41bafa71042c5a0d00c.jpg",
     "static/media/Kpmg-Ideation-Challenge.jfif": "/static/media/Kpmg-Ideation-Challenge.f4e9db2e715e4b014d3d.jfif",
     "static/media/Google-HashCode.jpg": "/static/media/Google-HashCode.e2390763ab4b79cbd5ce.jpg",
-    "static/media/Raag_Pic_11.jfif": "/static/media/Raag_Pic_11.c91e022bcaa7194ca61e.jfif",
     "static/media/LC.jpg": "/static/media/LC.10ef7fa1668c81026dff.jpg",
     "static/media/name-logo.jpg": "/static/media/name-logo.275bcf7c827e035bb428.jpg",
     "static/media/name-logo-footer.jpg": "/static/media/name-logo-footer.6b35df71ead9671a05ed.jpg",
@@ -48,11 +48,11 @@
     "static/media/Crudcook_logo.jfif": "/static/media/Crudcook_logo.a8ddffebc5b6b3956988.jfif",
     "index.html": "/index.html",
     "main.f3bd4204.css.map": "/static/css/main.f3bd4204.css.map",
-    "main.0a8bab06.js.map": "/static/js/main.0a8bab06.js.map",
+    "main.ac00ef6f.js.map": "/static/js/main.ac00ef6f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3bd4204.css",
-    "static/js/main.0a8bab06.js"
+    "static/js/main.ac00ef6f.js"
   ]
 }
